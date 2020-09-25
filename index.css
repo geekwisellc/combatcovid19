@@ -1,0 +1,178 @@
+#body.html
+{ 
+   overflow: hidden;
+    
+    width: 100%; 
+    margin: 0 auto !important; 
+    float: none !important; 
+    height: 100%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ #container.a {
+    position: relative;
+    background-color: yellow;
+  
+    margin: auto 0;
+    font-size: 24px;
+    z-index: 2;   /* element with greater value sent to front*/
+    
+}
+
+#backgroundimg
+{
+    position: fixed;
+    max-width: max-content;
+    margin:auto;
+    padding: 0%;
+    z-index: -1;
+    
+    
+
+   
+
+}
+
+
+ 
+#container.b {
+    position:static;
+   margin-top: -15%;
+   
+    text-align: center;
+    width: 100%;;
+    font-size: 48px;
+   
+    
+   
+    
+ }
+
+ #container.c {
+    position:static;
+   margin: auto 0;
+    padding-top: 30%;
+    text-align: center;
+    width: 100%;;
+    font-size: 48px;
+   
+    
+   
+    
+ }
+
+ #container.d {
+    position:static;
+   margin: auto 0;
+    padding-top: 30%;
+    text-align: center;
+    width: 100%;;
+    font-size: 48px;
+   
+    
+   
+    
+ }
+
+ h1.b
+ {
+     position: static;
+     padding-top: 25%;
+   font-size: larger;
+     color:white;
+ }
+
+
+
+p.b, ul.b
+{
+font-size: 24px;
+font-weight: bolder;
+
+
+}
+
+.card
+{
+
+    position:static;
+    padding-bottom: 5.75%;
+  
+   
+  
+    z-index: 3;
+
+   
+}
+.card-title
+{
+    
+    background-color: yellow;
+    border-style: solid;
+
+    font-size: large;
+}
+.card-text
+{
+    font-size: small;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  #footer
+  {
+      background-color: rgba(0, 0, 0, 0.925);
+  }
+  .footer
+  {
+      color: white;
+      margin-top: 50%;
+      padding-bottom: 35%;
+     
+  }
+
+  /* unvisited link */
+#footer a:link {
+    text-decoration:none;
+    color: white;
+}
+
+/* visited link */
+#footer a:visited {
+    text-decoration:none;
+    color: white;
+}
+
+/* mouse over link */
+#footer a:hover {
+    text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    text-decoration:none;
+}
+
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 768px) {
+    #map, .footer,.card-text, .card-title,.card,
+    p.b, ul.b,h1.b, #container.d,#container.c,
+    #container.b,#backgroundimg, #container.a 
+    {
+      width: 100%; /* The width is 100%, when the viewport is 768px or smaller */
+    }
+  }
+
+
+
+  
+
+
+  
+
+
+  
